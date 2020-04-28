@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/security
+http://www.springframework.org/schema/security/spring-security.xsd">
+    <!--<security:global-method-security jsr250-annotations="enabled"/>-->
+    <security:global-method-security secured-annotations="enabled"/>
+    <!--<security:global-method-security pre-post-annotations="enabled"/>-->
+    <!-- 配置不过滤的资源（静态资源及登录相关） -->
+    <security:http security="none" pattern="/pages/login.jsp" />
+    <security:http security="none" pattern="/pages/failer.jsp" />
+    <security:http pattern="/css/**" security="none"/>
+    <security:http pattern="/img/**" security="none"/>
+    <security:http pattern="/plugins/**" security="none"/>
+    <security:http auto-config="true" use-expressions="false">
+
+        <!-- 配置资料连接，表示任意路径都需要ROLE_USER权限 -->
+        <security:intercept-url pattern="/**" access="ROLE_GUEST" />
+
+        <!-- 自定义登陆页面，login-page 自定义登陆页面 authentication-failure-url 用户权限校验失败之
+        后才会跳转到这个页面，如果数据库中没有这个用户则不会跳转到这个页面。
+        default-target-url 登陆成功后跳转的页面。 注：登陆页面用户名固定 username，密码
+        password，action:login -->
+
+        <!--login-processing-url :配置表单提交路径-->
+        <security:form-login login-page="/pages/login.jsp"
+                             login-processing-url="/login.do"
+                             username-parameter="username"
+                             password-parameter="password"
+                             authentication-failure-url="/pages/failer.jsp"
+                             authentication-success-forward-url="/pages/main.jsp"
+                             default-target-url="/pages/main.jsp"
+        />
+        <!-- 登出， invalidate-session 是否删除session logout-url：登出处理链接 logout-successurl：
+        登出成功页面
+        注：登出操作 只需要链接到 logout即可登出当前用户 -->
+        <security:logout invalidate-session="true" logout-url="/logout.do"
+                         logout-success-url="/login.jsp" />
+        <!-- 关闭CSRF,默认是开启的 -->
+        <security:csrf disabled="true" />
+    </security:http>
+
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <security:authentication-manager>
+        <security:authentication-provider user-service-ref="userService">
+            <!--配置加密方式-->
+                <security:password-encoder ref="passwordEncoder"/>
+<!--            <security:user-service>
+                <security:user name="user" password="{noop}user"
+                               authorities="ROLE_USER" />
+                <security:user name="admin" password="{noop}admin"
+                               authorities="ROLE_ADMIN" />
+            </security:user-service>-->
+        </security:authentication-provider>
+    </security:authentication-manager>
+    <bean id="webexpressionHandler" class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler" />
+
+</beans>

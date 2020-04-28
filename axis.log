@@ -1,0 +1,576 @@
+2020-04-06 14:09:50,541 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@57829d67: startup date [Mon Apr 06 14:09:50 CST 2020]; root of context hierarchy
+2020-04-06 14:09:50,650 109    [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 14:55:50,323 0      [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 14:55:50,380 57     [on(2)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 14:55:50 CST 2020]; root of context hierarchy
+2020-04-06 14:55:50,467 144    [on(2)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 14:55:51,609 1286   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 14:55:51,648 1325   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 14:55:51,651 1328   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 14:55:51,946 1623   [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1621 ms
+2020-04-06 14:55:55,963 5640   [nio-8080-exec-4] WARN  ework.web.servlet.PageNotFound  - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
+2020-04-06 14:56:03,606 13283  [nio-8080-exec-5] WARN  ework.web.servlet.PageNotFound  - No mapping found for HTTP request with URI [/account/findall] in DispatcherServlet with name 'dispatcherServlet'
+2020-04-06 15:00:41,035 290712 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 14:55:50 CST 2020]; root of context hierarchy
+2020-04-06 15:01:55,827 0      [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 15:01:55,907 80     [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:01:55 CST 2020]; root of context hierarchy
+2020-04-06 15:01:56,059 232    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 15:01:57,355 1528   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 15:01:57,384 1557   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 15:01:57,386 1559   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 15:01:57,459 1632   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll()
+2020-04-06 15:01:57,587 1760   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:01:55 CST 2020]; root of context hierarchy
+2020-04-06 15:01:57,680 1853   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:01:55 CST 2020]; root of context hierarchy
+2020-04-06 15:01:57,840 2013   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 2011 ms
+2020-04-06 15:04:54,488 178661 [on(7)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:01:55 CST 2020]; root of context hierarchy
+2020-04-06 15:04:57,555 0      [on(7)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 15:04:57,610 55     [on(7)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:04:57 CST 2020]; root of context hierarchy
+2020-04-06 15:04:57,700 145    [on(7)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 15:04:59,015 1460   [on(7)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 15:04:59,047 1492   [on(7)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 15:04:59,049 1494   [on(7)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 15:04:59,125 1570   [on(7)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll()
+2020-04-06 15:04:59,247 1692   [on(7)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:04:57 CST 2020]; root of context hierarchy
+2020-04-06 15:04:59,341 1786   [on(7)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:04:57 CST 2020]; root of context hierarchy
+2020-04-06 15:04:59,480 1925   [on(7)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1923 ms
+2020-04-06 15:29:49,946 1492391 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:04:57 CST 2020]; root of context hierarchy
+2020-04-06 15:31:18,438 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 15:31:18,577 139    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 15:31:18 CST 2020]; root of context hierarchy
+2020-04-06 15:31:18,685 247    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 15:31:19,474 1036   [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1034 ms
+2020-04-06 15:31:19,552 1114   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 15:31:19,561 1123   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:31:19 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 15:31:19,561 1123   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 15:31:20,236 1798   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 15:31:20,263 1825   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 15:31:20,266 1828   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 15:31:20,337 1899   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll()
+2020-04-06 15:31:20,469 2031   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:31:19 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 15:31:20,570 2132   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:31:19 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 15:31:20,700 2262   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1147 ms
+2020-04-06 16:00:46,733 1768295 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 15:31:19 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:00:46,739 1768301 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 15:31:18 CST 2020]; root of context hierarchy
+2020-04-06 16:01:05,190 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 16:01:05,311 121    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 16:01:05 CST 2020]; root of context hierarchy
+2020-04-06 16:01:05,415 225    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 16:01:06,144 954    [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 952 ms
+2020-04-06 16:01:06,210 1020   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 16:01:06,217 1027   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:01:06 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:01:06,217 1027   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 16:01:06,842 1652   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 16:01:06,871 1681   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 16:01:06,874 1684   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 16:01:06,945 1755   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll()
+2020-04-06 16:01:07,075 1885   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:01:06 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:01:07,177 1987   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:01:06 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:01:07,316 2126   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1106 ms
+2020-04-06 16:43:56,512 2571322 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:01:06 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:43:56,517 2571327 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 16:01:05 CST 2020]; root of context hierarchy
+2020-04-06 16:44:00,033 0      [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 16:44:00,200 167    [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 16:44:00 CST 2020]; root of context hierarchy
+2020-04-06 16:44:00,309 276    [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 16:44:01,394 1361   [on(6)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-06 16:44:01,714 1681   [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1677 ms
+2020-04-06 16:44:01,765 1732   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 16:44:01,769 1736   [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:44:01 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:44:01,770 1737   [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 16:44:02,339 2306   [on(6)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 16:44:02,363 2330   [on(6)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 16:44:02,365 2332   [on(6)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 16:44:02,429 2396   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-06 16:44:02,611 2578   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:44:01 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:44:02,705 2672   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:44:01 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:44:02,867 2834   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1102 ms
+2020-04-06 16:46:44,738 164705 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:44:01 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:46:44,751 164718 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 16:44:00 CST 2020]; root of context hierarchy
+2020-04-06 16:47:06,496 0      [on(4)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 16:47:06,634 138    [on(4)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 16:47:06 CST 2020]; root of context hierarchy
+2020-04-06 16:47:06,750 254    [on(4)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 16:47:07,752 1256   [on(4)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-06 16:47:08,083 1587   [on(4)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1585 ms
+2020-04-06 16:47:08,176 1680   [on(4)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 16:47:08,180 1684   [on(4)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:47:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:47:08,181 1685   [on(4)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 16:47:08,873 2377   [on(4)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 16:47:08,908 2412   [on(4)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 16:47:08,910 2414   [on(4)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 16:47:08,997 2501   [on(4)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-06 16:47:09,186 2690   [on(4)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:47:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:47:09,285 2789   [on(4)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:47:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 16:47:09,588 3092   [on(4)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1412 ms
+2020-04-06 22:08:30,125 19283629 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 16:47:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:08:30,145 19283649 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 16:47:06 CST 2020]; root of context hierarchy
+2020-04-06 22:08:52,500 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 22:08:52,625 125    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 22:08:52 CST 2020]; root of context hierarchy
+2020-04-06 22:08:52,731 231    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 22:08:53,692 1192   [on(3)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-06 22:08:54,020 1520   [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1517 ms
+2020-04-06 22:08:54,100 1600   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 22:08:54,104 1604   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:08:54 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:08:54,105 1605   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 22:08:54,765 2265   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 22:08:54,807 2307   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 22:08:54,810 2310   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 22:08:54,895 2395   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-06 22:08:54,897 2397   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/saveAccount]}" onto public java.lang.String com.ZepngLin.controller.AccountController.saveAccount(com.ZepngLin.domain.Account,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2020-04-06 22:08:55,056 2556   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:08:54 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:08:55,159 2659   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:08:54 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:08:55,427 2927   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1326 ms
+2020-04-06 22:28:47,462 1194962 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:08:54 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:28:47,471 1194971 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 22:08:52 CST 2020]; root of context hierarchy
+2020-04-06 22:28:50,023 0      [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 22:28:50,161 138    [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 22:28:50 CST 2020]; root of context hierarchy
+2020-04-06 22:28:50,297 274    [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 22:28:51,083 1060   [on(6)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-06 22:28:51,388 1365   [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1363 ms
+2020-04-06 22:28:51,453 1430   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 22:28:51,457 1434   [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:28:51 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:28:51,457 1434   [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 22:28:52,073 2050   [on(6)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 22:28:52,108 2085   [on(6)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 22:28:52,111 2088   [on(6)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 22:28:52,194 2171   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/transaction]}" onto public void com.ZepngLin.controller.AccountController.transaction(int,int,double,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2020-04-06 22:28:52,197 2174   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-06 22:28:52,198 2175   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/saveAccount]}" onto public void com.ZepngLin.controller.AccountController.saveAccount(com.ZepngLin.domain.Account,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2020-04-06 22:28:52,352 2329   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:28:51 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:28:52,454 2431   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:28:51 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:28:52,661 2638   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1208 ms
+2020-04-06 22:37:56,179 546156 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:28:51 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:37:56,187 546164 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 22:28:50 CST 2020]; root of context hierarchy
+2020-04-06 22:38:48,780 0      [on(2)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 22:38:48,908 128    [on(2)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 22:38:48 CST 2020]; root of context hierarchy
+2020-04-06 22:38:49,019 239    [on(2)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 22:38:49,936 1156   [on(2)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-06 22:38:50,271 1491   [on(2)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1489 ms
+2020-04-06 22:38:50,352 1572   [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 22:38:50,356 1576   [on(2)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:38:50 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:38:50,356 1576   [on(2)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 22:38:51,054 2274   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 22:38:51,093 2313   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 22:38:51,095 2315   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 22:38:51,189 2409   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/transaction]}" onto public void com.ZepngLin.controller.AccountController.transaction(int,int,double,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2020-04-06 22:38:51,191 2411   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-06 22:38:51,191 2411   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/saveAccount]}" onto public void com.ZepngLin.controller.AccountController.saveAccount(com.ZepngLin.domain.Account,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2020-04-06 22:38:51,370 2590   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:38:50 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:38:51,467 2687   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:38:50 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:38:51,775 2995   [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1423 ms
+2020-04-06 22:43:46,546 297766 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:38:50 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:43:46,555 297775 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 22:38:48 CST 2020]; root of context hierarchy
+2020-04-06 22:49:34,172 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-06 22:49:34,295 123    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Mon Apr 06 22:49:34 CST 2020]; root of context hierarchy
+2020-04-06 22:49:34,399 227    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-06 22:49:35,538 1366   [on(3)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-06 22:49:36,298 2126   [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 2124 ms
+2020-04-06 22:49:36,377 2205   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-06 22:49:36,382 2210   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:49:36 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:49:36,382 2210   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-06 22:49:37,073 2901   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-06 22:49:37,109 2937   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-06 22:49:37,112 2940   [on(3)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-06 22:49:37,200 3028   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/transaction]}" onto public void com.ZepngLin.controller.AccountController.transaction(int,int,double,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2020-04-06 22:49:37,201 3029   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-06 22:49:37,202 3030   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/saveAccount]}" onto public void com.ZepngLin.controller.AccountController.saveAccount(com.ZepngLin.domain.Account,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2020-04-06 22:49:37,393 3221   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:49:36 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:49:37,518 3346   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:49:36 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 22:49:37,755 3583   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1377 ms
+2020-04-06 23:38:16,188 2922016 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Apr 06 22:49:36 CST 2020]; parent: Root WebApplicationContext
+2020-04-06 23:38:16,192 2922020 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Mon Apr 06 22:49:34 CST 2020]; root of context hierarchy
+2020-04-08 15:21:01,156 0      [on(2)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 15:21:01,304 148    [on(2)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 15:21:01 CST 2020]; root of context hierarchy
+2020-04-08 15:21:01,403 247    [on(2)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-04-08 15:21:02,513 1357   [on(2)-127.0.0.1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-04-08 15:21:03,515 2359   [on(2)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 2341 ms
+2020-04-08 15:21:03,578 2422   [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 15:21:03,578 2422   [on(2)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 15:21:03 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 15:21:03,578 2422   [on(2)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 15:21:04,169 3013   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2020-04-08 15:21:04,197 3041   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2020-04-08 15:21:04,200 3044   [on(2)-127.0.0.1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2020-04-08 15:21:04,265 3109   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findall]}" onto public java.lang.String com.ZepngLin.controller.AccountController.findAll(org.springframework.ui.Model)
+2020-04-08 15:21:04,267 3111   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/transaction]}" onto public void com.ZepngLin.controller.AccountController.transaction(int,int,double,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2020-04-08 15:21:04,267 3111   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/saveAccount]}" onto public void com.ZepngLin.controller.AccountController.saveAccount(com.ZepngLin.domain.Account,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2020-04-08 15:21:04,399 3243   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 15:21:03 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 15:21:04,508 3352   [on(2)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 15:21:03 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 15:21:04,649 3493   [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1071 ms
+2020-04-08 15:21:08,504 7348   [nio-8080-exec-4] WARN  ework.web.servlet.PageNotFound  - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
+2020-04-08 15:24:28,958 207802 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 15:21:03 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 15:24:28,965 207809 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 15:21:01 CST 2020]; root of context hierarchy
+2020-04-08 16:00:27,444 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4411d970: startup date [Wed Apr 08 16:00:27 CST 2020]; root of context hierarchy
+2020-04-08 16:00:27,523 79     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:00:56,558 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4411d970: startup date [Wed Apr 08 16:00:56 CST 2020]; root of context hierarchy
+2020-04-08 16:00:56,631 73     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:01:35,836 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4411d970: startup date [Wed Apr 08 16:01:35 CST 2020]; root of context hierarchy
+2020-04-08 16:01:35,914 78     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:01:36,791 955    [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 16:01:37,571 1735   [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2020-04-08 16:01:37,621 1785   [           main] INFO  c.support.SQLErrorCodesFactory  - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2020-04-08 16:02:01,371 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4411d970: startup date [Wed Apr 08 16:02:01 CST 2020]; root of context hierarchy
+2020-04-08 16:02:01,446 75     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:02:02,238 867    [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 16:43:17,783 0      [nio-8080-exec-4] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:43:17,970 187    [nio-8080-exec-4] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:43:17 CST 2020]; root of context hierarchy
+2020-04-08 16:43:18,076 293    [nio-8080-exec-4] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+2020-04-08 16:43:18,079 296    [nio-8080-exec-4] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:343)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:620)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:521)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:763)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:329)
+	... 36 more
+2020-04-08 16:45:54,609 0      [on(2)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:45:54,674 65     [on(2)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:45:54 CST 2020]; root of context hierarchy
+2020-04-08 16:45:54,782 173    [on(2)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com]
+2020-04-08 16:45:54,787 178    [on(2)-127.0.0.1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from file [H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com]; nested exception is java.nio.file.AccessDeniedException: H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:343)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:620)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:521)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:985)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4885)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5199)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1720)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:479)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:428)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1406)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:828)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:178)
+	at sun.rmi.transport.Transport$1.run(Transport.java:175)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:174)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:557)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:812)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:671)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.nio.file.AccessDeniedException: H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.springframework.core.io.FileSystemResource.getInputStream(FileSystemResource.java:123)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:329)
+	... 64 more
+2020-04-08 16:46:01,598 6989   [nio-8080-exec-4] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:46:01,599 6990   [nio-8080-exec-4] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:46:01 CST 2020]; root of context hierarchy
+2020-04-08 16:46:01,605 6996   [nio-8080-exec-4] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com]
+2020-04-08 16:46:01,607 6998   [nio-8080-exec-4] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from file [H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com]; nested exception is java.nio.file.AccessDeniedException: H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:343)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:620)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:521)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:763)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1623)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.nio.file.AccessDeniedException: H:\Javaproject\mavenProject\target\mavenProject-1.0-SNAPSHOT\WEB-INF\classes\com
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at org.springframework.core.io.FileSystemResource.getInputStream(FileSystemResource.java:123)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:329)
+	... 36 more
+2020-04-08 16:50:56,780 0      [on(4)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:50:56,839 59     [on(4)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:50:56 CST 2020]; root of context hierarchy
+2020-04-08 16:50:56,937 157    [on(4)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 16:50:57,981 1201   [on(4)-127.0.0.1] WARN  pport.XmlWebApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'itemsController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ZepngLin.Service.ItemsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-04-08 16:50:57,987 1207   [on(4)-127.0.0.1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'itemsController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ZepngLin.Service.ItemsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:586)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$14/896425126.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:758)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:985)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4885)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5199)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1720)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:479)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:428)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:287)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1406)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:828)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:178)
+	at sun.rmi.transport.Transport$1.run(Transport.java:175)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:174)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:557)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:812)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:671)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ZepngLin.Service.ItemsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	... 68 more
+2020-04-08 16:55:07,157 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 16:55:07,330 173    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 16:55:07 CST 2020]; root of context hierarchy
+2020-04-08 16:55:07,430 273    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:55:08,693 1536   [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1533 ms
+2020-04-08 16:55:08,734 1577   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:55:08,738 1581   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:55:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:55:08,739 1582   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 16:55:09,346 2189   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 16:55:09,493 2336   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:55:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:55:09,589 2432   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:55:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:55:09,738 2581   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1003 ms
+2020-04-08 16:55:39,382 32225  [nio-8080-exec-8] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 16:55:40,247 33090  [nio-8080-exec-8] WARN  ework.web.servlet.PageNotFound  - No mapping found for HTTP request with URI [/WEB-INF/pages/listjsp] in DispatcherServlet with name 'dispatcherServlet'
+2020-04-08 16:57:10,568 123411 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:55:08 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:57:10,575 123418 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 16:55:07 CST 2020]; root of context hierarchy
+2020-04-08 16:57:10,586 123429 [on(6)-127.0.0.1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2020-04-08 16:57:14,905 0      [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 16:57:15,038 133    [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 16:57:15 CST 2020]; root of context hierarchy
+2020-04-08 16:57:15,135 230    [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:57:16,241 1336   [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1334 ms
+2020-04-08 16:57:16,273 1368   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:57:16,277 1372   [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:57:16 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:57:16,277 1372   [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 16:57:16,861 1956   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 16:57:17,010 2105   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:57:16 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:57:17,113 2208   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:57:16 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:57:17,266 2361   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 992 ms
+2020-04-08 16:57:32,899 17994  [nio-8080-exec-4] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 16:58:54,101 99196  [n(10)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:57:16 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:58:54,104 99199  [n(10)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 16:57:15 CST 2020]; root of context hierarchy
+2020-04-08 16:58:54,114 99209  [n(10)-127.0.0.1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2020-04-08 16:58:57,098 0      [n(10)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 16:58:57,289 191    [n(10)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 16:58:57 CST 2020]; root of context hierarchy
+2020-04-08 16:58:57,396 298    [n(10)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 16:58:58,542 1444   [n(10)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1438 ms
+2020-04-08 16:58:58,579 1481   [n(10)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 16:58:58,582 1484   [n(10)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:58:58 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:58:58,582 1484   [n(10)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 16:58:59,202 2104   [n(10)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 16:58:59,330 2232   [n(10)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:58:58 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:58:59,489 2391   [n(10)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:58:58 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 16:58:59,815 2717   [n(10)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1236 ms
+2020-04-08 16:59:09,039 11941  [io-8080-exec-11] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 17:01:00,998 123900 [n(13)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 16:58:58 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:01:01,001 123903 [n(13)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 16:58:57 CST 2020]; root of context hierarchy
+2020-04-08 17:01:01,012 123914 [n(13)-127.0.0.1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2020-04-08 17:01:04,176 0      [n(13)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 17:01:04,321 145    [n(13)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 17:01:04 CST 2020]; root of context hierarchy
+2020-04-08 17:01:04,432 256    [n(13)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 17:01:05,577 1401   [n(13)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1397 ms
+2020-04-08 17:01:05,611 1435   [n(13)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 17:01:05,616 1440   [n(13)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:01:05 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:01:05,616 1440   [n(13)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 17:01:06,259 2083   [n(13)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 17:01:06,420 2244   [n(13)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:01:05 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:01:06,527 2351   [n(13)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:01:05 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:01:06,663 2487   [n(13)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1052 ms
+2020-04-08 17:02:11,915 67739  [io-8080-exec-20] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 17:19:19,647 1095471 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:01:05 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:19:19,651 1095475 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 17:01:04 CST 2020]; root of context hierarchy
+2020-04-08 17:19:19,662 1095486 [ost-startStop-2] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2020-04-08 17:44:22,120 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 17:44:22,259 139    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 17:44:22 CST 2020]; root of context hierarchy
+2020-04-08 17:44:22,366 246    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 17:44:23,722 1602   [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1600 ms
+2020-04-08 17:44:23,767 1647   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 17:44:23,772 1652   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:44:23 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:44:23,773 1653   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 17:44:24,473 2353   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 17:44:24,667 2547   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:44:23 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:44:24,767 2647   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:44:23 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:44:24,948 2828   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1181 ms
+2020-04-08 17:44:29,021 6901   [nio-8080-exec-7] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 17:46:32,907 130787 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:44:23 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:46:32,913 130793 [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 17:44:22 CST 2020]; root of context hierarchy
+2020-04-08 17:46:32,926 130806 [on(6)-127.0.0.1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2020-04-08 17:46:36,793 0      [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 17:46:36,908 115    [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 17:46:36 CST 2020]; root of context hierarchy
+2020-04-08 17:46:37,010 217    [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 17:46:38,351 1558   [on(6)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1556 ms
+2020-04-08 17:46:38,406 1613   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 17:46:38,416 1623   [on(6)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:46:38 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:46:38,417 1624   [on(6)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 17:46:39,018 2225   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 17:46:39,151 2358   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:46:38 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:46:39,257 2464   [on(6)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:46:38 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:46:39,403 2610   [on(6)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 997 ms
+2020-04-08 17:47:00,707 23914  [nio-8080-exec-7] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 17:47:49,801 73008  [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:46:38 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:47:49,806 73013  [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 17:46:36 CST 2020]; root of context hierarchy
+2020-04-08 17:47:49,816 73023  [ost-startStop-2] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed
+2020-04-08 17:48:08,369 0      [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-04-08 17:48:08,513 144    [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Apr 08 17:48:08 CST 2020]; root of context hierarchy
+2020-04-08 17:48:08,625 256    [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springContext.xml]
+2020-04-08 17:48:10,147 1778   [on(3)-127.0.0.1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1774 ms
+2020-04-08 17:48:10,215 1846   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-08 17:48:10,219 1850   [on(3)-127.0.0.1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:48:10 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:48:10,220 1851   [on(3)-127.0.0.1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2020-04-08 17:48:11,093 2724   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/findById]}" onto public java.lang.String com.ZepngLin.controller.ItemsController.findById(java.lang.Integer,org.springframework.ui.Model)
+2020-04-08 17:48:11,313 2944   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:48:10 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:48:11,426 3057   [on(3)-127.0.0.1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:48:10 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 17:48:11,750 3381   [on(3)-127.0.0.1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1535 ms
+2020-04-08 17:48:17,819 9450   [nio-8080-exec-4] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2020-04-08 20:44:57,193 10608824 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Apr 08 17:48:10 CST 2020]; parent: Root WebApplicationContext
+2020-04-08 20:44:57,195 10608826 [ost-startStop-2] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Apr 08 17:48:08 CST 2020]; root of context hierarchy
+2020-04-08 20:44:57,199 10608830 [ost-startStop-2] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} closed

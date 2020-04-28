@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop.xsd
+           ">
+
+    <!--该属性值默认为false,表示使用JDK动态代理织入增强;当值为true时,表示使用CGLib动态代理织入增强;
+    但是,即使设置为false,如果目标类没有生命接口,则Spring将自动使用CGLib动态代理.-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <context:component-scan base-package="com.ZepngLin.controller"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" name="resourceViewResolver">
+        <property name="suffix" value=".jsp"/>
+        <property name="prefix" value="/pages/"/>
+    </bean>
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/img/**" location="/img/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/plugins/**" location="/plugins/"/>
+    <mvc:annotation-driven/>
+
+
+
+</beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+        <context:component-scan base-package="com.ZepngLin.service"/>
+<!--        <bean class="com.alibaba.druid.pool.DruidDataSource" name="dataSource">
+                <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://114.116.235.107:3306/ssm"/>
+                <property name="name" value="root"/>
+                <property name="password" value="ZepngLin_42"/>
+                <property name="maxWait" value="5000"/>
+        </bean>-->
+
+        <bean  id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+                <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://114.116.235.107:3306/ssm"/>
+                <property name="username" value="root"/>
+                <property name="password" value="ZepngLin_42"/>
+        </bean>
+        <bean class="org.mybatis.spring.SqlSessionFactoryBean" name="sqlSessionFactory">
+                <property name="dataSource" ref="dataSource"/>
+
+                <!--分页组件-->
+                <property name="plugins">
+                        <array>
+                                <bean class="com.github.pagehelper.PageInterceptor">
+                                        <property name="properties">
+                                                <props>
+                                                        <prop key="helperDialect">mysql</prop>
+                                                        <prop key="reasonable">true</prop>
+                                                </props>
+                                                <!-- <value>
+                                                             params=value1
+                                                     </value>-->
+                                        </property>
+                                </bean>
+                        </array>
+                </property>
+        </bean>
+        <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+                <property name="basePackage" value="com.ZepngLin.dao"/>
+        </bean>
+
+
+
+</beans>
