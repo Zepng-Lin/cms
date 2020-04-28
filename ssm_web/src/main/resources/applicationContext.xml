@@ -18,9 +18,9 @@
         <context:component-scan base-package="com.ZepngLin.service"/>
 <!--        <bean class="com.alibaba.druid.pool.DruidDataSource" name="dataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://114.116.235.107:3306/ssm"/>
-                <property name="name" value="root"/>
-                <property name="password" value="ZepngLin_42"/>
+                <property name="url" value=""/>
+                <property name="name" value=""/>
+                <property name="password" value=""/>
                 <property name="maxWait" value="5000"/>
         </bean>-->
 
